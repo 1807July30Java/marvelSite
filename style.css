@@ -6,3 +6,6 @@ body {
     border: 1px solid white; 
     margin: 100px;
 }
+.navBar li{
+    display:inline;
+}
