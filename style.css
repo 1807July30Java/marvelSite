@@ -1,50 +1,50 @@
 
-			@font-face{
-				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
-			}
-			
-			body {
-				background-color: #ed1d24;
-				color: #ffffff; <!--#021e44-->
-			}
-			
-			
-			h1 {
-				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
-				font-size: 10vw;
-				letter-spacing: -6px;
-				
-			}
-			a{
-			text-align: center
-			}
-			
-			#entry {
-				display: block;
-				font-size: 50;
+@font-face{
+	font-family: 'bebas';
+	src: url('bebas.ttf') format('truetype');
+}
 
-			}
-			
-			a:link {
-					color: #ffffff;
-					text-decoration: none;
-			}
-			a:visited {
-				color: #ffffff;
-				text-decoration: none;
-			}
-			a:hover, a:active, a:focus {
-				text-decoration: underline;
-			}
-			
+body {
+	background-color: #ed1d24;
+	color: #ffffff; <!--#021e44-->
+}
 
-			.paraText {
-				border: 1px solid white; 
-				margin: 100px;
-			}
 
-			.navBar li{
-				display:inline;
-			}
+h1 {
+	font-family: 'bebas';
+	src: url('bebas.ttf') format('truetype');
+	font-size: 10vw;
+	letter-spacing: -6px;
+	
+}
+a{
+	text-align: center
+}
+
+#entry {
+	display: block;
+	font-size: 50;
+
+}
+
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+
+
+.paraText {
+	border: 1px solid white; 
+	margin: 100px;
+}
+
+.navBar li{
+	display:inline;
+}
