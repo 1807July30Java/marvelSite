@@ -1,50 +1,48 @@
+@font-face{
+	font-family: 'bebas';
+	src: url('bebas.ttf') format('truetype');
+}
 
-			@font-face{
-				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
-			}
-			
+
+h1 {
+	font-family: 'bebas';
+	src: url('bebas.ttf') format('truetype');
+	font-size: 10vw;
+	letter-spacing: -6px;
+	
+}
 			body {
 				background-color: #ed1d24 !important;
 				color: #ffffff !important; <!--#021e44-->
 			}
-			
-			
-			h1 {
-				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
-				font-size: 10vw;
-				letter-spacing: -6px;
-				
-			}
-			a{
-			text-align: center
-			}
-			
-			#entry {
-				display: block;
-				font-size: 50;
+a{
+	text-align: center
+}
 
-			}
-			
-			a:link {
-					color: #ffffff;
-					text-decoration: none;
-			}
-			a:visited {
-				color: #ffffff;
-				text-decoration: none;
-			}
-			a:hover, a:active, a:focus {
-				text-decoration: underline;
-			}
-			
+#entry {
+	display: block;
+	font-size: 50;
 
-			.paraText {
-				border: 1px solid white; 
-				margin: 100px;
-			}
+}
 
-			.navBar li{
-				display:inline;
-			}
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus {
+	text-decoration: underline;
+}
+
+
+.paraText {
+	border: 1px solid white; 
+	margin: 100px;
+}
+
+.navBar li{
+	display:inline;
+}
