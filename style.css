@@ -11,10 +11,10 @@ h1 {
 	letter-spacing: -6px;
 	
 }
-			body {
-				background-color: #ed1d24 !important;
-				color: #ffffff !important; <!--#021e44-->
-			}
+body {
+	background-color: #ed1d24 !important;
+	color: #ffffff !important; <!--#021e44-->
+}
 a{
 	text-align: center
 }
