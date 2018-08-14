@@ -2,3 +2,7 @@ body {
     color:#ffffff;
     
 }
+.paraText {
+    border: 1px solid white; 
+    margin: 100px;
+}
