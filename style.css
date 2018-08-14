@@ -5,8 +5,8 @@
 			}
 			
 			body {
-				background-color: #ed1d24;
-				color: #ffffff; <!--#021e44-->
+				background-color: #ed1d24 !important;
+				color: #ffffff !important; <!--#021e44-->
 			}
 			
 			
