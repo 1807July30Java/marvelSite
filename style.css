@@ -1,7 +1,7 @@
 
 			@font-face{
 				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
+				src: url('BEBAS.ttf') format('truetype');
 			}
 			
 			body {
@@ -28,7 +28,7 @@
 			
 			.marvel{
 				font-family: 'bebas';
-				src: url('bebas.ttf') format('truetype');
+				src: url('BEBAS.ttf') format('truetype');
 				font-size: 10vw;
 				letter-spacing: -10px;
 				text-align: center;
