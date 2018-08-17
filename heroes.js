@@ -14,14 +14,13 @@ function displayHeroList(xhr) {
     var res = JSON.parse(xhr.responseText);
     var resultDiv = document.getElementById("displayHeroes");
 
-    console.log("entered");
     for (var i = 0; i < res.length; i++) {
     	if (res[i].biography.publisher == "Marvel Comics" && res[i].biography.alignment == "good"){
 	    	var hero = document.createElement("li");
 
             var a = document.createElement("a");
             a.textContent = res[i].name;;
-            var hrefp = "character/" + i;
+            var hrefp = "character.html/" + i;
             a.setAttribute('href', hrefp);
             hero.appendChild(a);
 
