@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <display-name>Marvelous</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CharacterServlet</display-name>
+    <servlet-name>CharacterServlet</servlet-name>
+    <servlet-class>com.revature.servlets.CharacterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CharacterServlet</servlet-name>
+    <url-pattern>/CharacterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CharacterRender</display-name>
+    <servlet-name>CharacterRender</servlet-name>
+    <servlet-class>com.revature.servlets.CharacterRender</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CharacterRender</servlet-name>
+    <url-pattern>/CharacterRender</url-pattern>
+  </servlet-mapping>
+</web-app>
