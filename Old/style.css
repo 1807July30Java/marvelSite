@@ -1,0 +1,59 @@
+
+			@font-face{
+				font-family: 'bebas';
+				src: url('BEBAS.ttf') format('truetype');
+			}
+			
+			body {
+				background-color: #ed1d24 !important;
+				color: #ffffff !important;
+			}
+			
+			
+			h1 {
+				
+				
+			}
+			a{
+			text-align: center
+			}
+			
+			.entry {
+				background-color: #ed1d24;
+				color: #ffffff;
+				display: block;
+				
+
+			}
+			
+			.marvel{
+				font-family: 'bebas';
+				src: url('BEBAS.ttf') format('truetype');
+				font-size: 10vw;
+				letter-spacing: -10px;
+				text-align: center;
+				border-style: solid;
+				border-color: #ffffff;
+			}
+			
+			a:link {
+					color: #ffffff;
+					text-decoration: none;
+			}
+			a:visited {
+				color: #ffffff;
+				text-decoration: none;
+			}
+			a:hover, a:active, a:focus {
+				text-decoration: underline;
+			}
+			
+
+			.paraText {
+				border: 1px solid white; 
+				margin: 100px;
+			}
+
+			.navBar li{
+				display:inline;
+			}
